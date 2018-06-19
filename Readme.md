@@ -4,12 +4,27 @@
 
 
 ## - Requirement
-### Docker image: 
+### 1.Docker image: 
 <code>docker pull najlabioinfo/gorevel:latest</code>
 
-- NB: <br> All scripts are available in this image under this path: 
-<code>/go/src/GoTuto/</code>
 
+### 2.Quick access:
+- Go help:
+<code>docker run -it najlabioinfo/gorevel:latest sh -c 'go help'</code>
+
+- Go Version:
+<code>docker run -it najlabioinfo/gorevel:latest sh -c 'go version'</code>
+
+- Go run example: Hello world
+<code>docker run -it najlabioinfo/gorevel:latest sh -c 'go run /home/NajlaBH/GoTuto/Hello/helloworld.go'</code>
+
+
+### 3.Run Go scripts
+ - NB: 
+<br> *  You have to copy GoTuto directory <code>cp -R /home/NajlaBH/GoTuto /go/src/ </code> to have all scripts available in this image under go path: 
+<code>/go/src</code>
+<br> *  You can create the script build with the following command:<br>
+<code> go build scriptname.go </code>
 
 
 ## - References

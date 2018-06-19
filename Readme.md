@@ -21,8 +21,13 @@
 
 ### 3.Run Go scripts
  - NB: 
-<br> *  You have to copy GoTuto directory <code>cp -R /home/NajlaBH/GoTuto /go/src/ </code> to have all scripts available in this image under go path: 
+<br> *  After pulling the docker image: <br>
+- You have to copy GoTuto directory <code> cp -R /home/NajlaBH/GoTuto /go/src/ </code><br>
+or
+- Clone the following git repository: https://github.com/NajlaBH/GoTuto.git <br>
+ to have all scripts available in this image under go path: 
 <code>/go/src</code>
+
 <br> *  You can create the script build with the following command:<br>
 <code> go build scriptname.go </code>
 

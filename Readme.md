@@ -14,5 +14,9 @@
 ### 1. <a href="https://golangbot.com/learn-golang-series">https://golangbot.com/learn-golang-series</a>.
 
 
+## - Scripts Lists
+### 1. Hello
+<code>go run /go/src/GoTuto/Hello/helloworld.go</code>
+
 ## - License
 MIT
